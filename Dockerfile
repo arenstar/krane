@@ -20,6 +20,6 @@ RUN apk add --update \
   ruby-bundler \
   ruby-dev \
   && rm -rf /var/cache/apk/* \
-  && gem install krane
+  && gem install krane --no-document
 
 CMD bash
